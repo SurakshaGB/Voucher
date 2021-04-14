@@ -21,7 +21,7 @@ app.get('/connecttoMC', function (request, responsefromWeb) {
 	}
 	axios({
 		method: 'post',
-		url: 'https://mctg9llgcpl0dff718-t9898wqh1.auth.marketingcloudapis.com/v2/token',
+		url: 'https://mch6zlw14tstgdw8kmyt93q5z7c0.auth.marketingcloudapis.com/v2/token',
 		data: conData,
 		headers: {
 			'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ app.get('/connecttoMCData', function (request, responsefromWeb) {
 
 	axios({
 		method: 'post',
-		url: 'https://mctg9llgcpl0dff718-t9898wqh1.rest.marketingcloudapis.com/hub/v1/dataevents/key:testdataextension/rowset',
+		url: 'https://mch6zlw14tstgdw8kmyt93q5z7c0.rest.marketingcloudapis.com/hub/v1/dataevents/key:VoucherCustomers/rowset',
 		data: voucherData,
 		headers: {
 			'Authorization': 'Bearer ' + token,
