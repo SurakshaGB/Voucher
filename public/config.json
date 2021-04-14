@@ -14,14 +14,14 @@
   "arguments": {
     "execute": {
       "inArguments": [{
-        "unique_key":  "{{Contact.Attribute.TestSunnyDE.unique_key}}",
-        "email_id":    "{{Contact.Attribute.TestSunnyDE.email_id}}",
-        "first_name":  "{{Contact.Attribute.TestSunnyDE.first_name}}",
-        "last_name":   "{{Contact.Attribute.TestSunnyDE.last_name}}",
-        "age":         "{{Contact.Attribute.TestSunnyDE.age}}",
-        "birth_date":  "{{Contact.Attribute.TestSunnyDE.birth_date}}",
-        "phone_number":"{{Contact.Attribute.TestSunnyDE.phone_number}}",
-        "is_married":  "{{Contact.Attribute.TestSunnyDE.is_married}}"
+        "unique_key":  "{{Contact.Attribute.VoucherCustomers.unique_key}}",
+        "email_id":    "{{Contact.Attribute.VoucherCustomers.email_id}}",
+        "first_name":  "{{Contact.Attribute.VoucherCustomers.first_name}}",
+        "last_name":   "{{Contact.Attribute.VoucherCustomers.last_name}}",
+        "age":         "{{Contact.Attribute.VoucherCustomers.age}}",
+        "birth_date":  "{{Contact.Attribute.VoucherCustomers.birth_date}}",
+        "phone_number":"{{Contact.Attribute.VoucherCustomers.phone_number}}",
+        "is_married":  "{{Contact.Attribute.VoucherCustomers.is_married}}"
       }], 
       "outArguments": [{
         "voucher_code":""
@@ -30,25 +30,25 @@
       "retryCount": 1,
       "retryDelay": 10000,
       "concurrentRequests": 5,
-      "url": "https://get-voucher-code.herokuapp.com/journeybuilder/execute"
+      "url": "https://suraksha1.herokuapp.com/journeybuilder/execute"
     }
   },
   "configurationArguments": {
     "applicationExtensionKey": "ff63babd-9d39-4434-8d26-b6df42f23da0",
     "save": {
-      "url": "https://get-voucher-code.herokuapp.com/journeybuilder/save",
+      "url": "https://suraksha1.herokuapp.com/journeybuilder/save",
       "verb": "POST"
     },
     "publish": {
-      "url": "https://get-voucher-code.herokuapp.com/journeybuilder/publish",
+      "url": "https://suraksha1.herokuapp.com/journeybuilder/publish",
       "verb": "POST"
     },
     "stop": {
-      "url": "https://get-voucher-code.herokuapp.com/journeybuilder/stop",
+      "url": "https://suraksha1.herokuapp.com/journeybuilder/stop",
       "verb": "POST"
     },
     "validate": {
-      "url": "https://get-voucher-code.herokuapp.com/journeybuilder/validate",
+      "url": "https://suraksha1.herokuapp.com/journeybuilder/validate",
       "verb": "POST"
     }
   },
