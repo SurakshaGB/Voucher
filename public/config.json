@@ -7,7 +7,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "Get Voucher Code",
+      "name": "Get Voucher Code1",
       "description": "A Template for a custom Journey Builder activity"
     }
   },
@@ -34,7 +34,7 @@
     }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "ff63babd-9d39-4434-8d26-b6df42f23da0",
+    "applicationExtensionKey": "c0c12a04-cc32-4ba4-8967-0993df07f1ac",
     "save": {
       "url": "https://suraksha1.herokuapp.com/journeybuilder/save",
       "verb": "POST"
